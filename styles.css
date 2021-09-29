@@ -1,0 +1,17 @@
+h1 {
+	margin: 30px;
+}
+
+summary {
+	margin: 10px;
+	border: 2px solid blueviolet;
+}
+
+links-list a,
+span {
+	display: inline-block;
+	margin: 75px;
+	margin-top: -15px;
+	border: 5px solid orange;
+	padding: 25px;
+}
