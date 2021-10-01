@@ -1,0 +1,50 @@
+.head {
+	display: inline-block;
+	position: relative;
+	top: 40vh;
+	width: 10vw;
+	left: 45vw;
+	height: 30vh;
+	border: thick solid midnightblue;
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+.eyes {
+	display: flex;
+	margin-top: 3vh;
+	justify-content: center;
+}
+
+.left_eye {
+	margin-right: 20px;
+}
+
+.right_eye {
+	margin-left: 20px;
+}
+
+.nose {
+	margin-top: 40px;
+	width: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: xx-large;
+	border: thick solid midnightblue;
+}
+
+.mouth {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.mouth_2, .mouth_5 {
+	position: relative;
+	top: 15px;
+}
+
+.mouth_3, .mouth_4 {
+	position: relative;
+	top: 20px;
+}
