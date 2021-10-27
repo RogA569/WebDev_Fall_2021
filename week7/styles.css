@@ -1,341 +1,37 @@
-/*All webpages*/
-a {
-	color: #0DDCFF;
+body {
+	background: #035200;
 }
 
-/*Homepage*/
-
-body.homepage {
-	background-color: #2C2A28; 
-	text-align: center;
-	color: #FFFFFF;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+img {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	position: relative;
 }
 
-h1.homepage {
-	margin-top: 6vh;
-	margin-bottom: 8vh;
+#squid_crane {
+	order: 1;
 }
 
-h2.homepage {
-	margin-top: 5vh;
-}
-
-img.homepage {
-	border: solid 4px #FB6B6B;
-}
-
-#ferrari_palomas {
-	margin-bottom: -20vh;
-	margin-right: -5px;
-}
-
-#pan_perspective_sessions {
-	margin-left: 25vw;
-	margin-top: -5px;
-}
-
-nav.homepage {
+#cat {
+	order: 2;
 	float: right;
-	margin-top: -8vh;
-	margin-right: 2vw;
 }
 
-/*Slide 2*/
-
-body.slide2 {
-	background-color: #2C2A28; 
-	color: #FFFFFF;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	text-align: center;
+#three_women {
+	order: 3;
 }
 
-h1.slide2 {
-	margin-top: 10vh;
-	margin-bottom: 20vh;
-	font-size: 48pt;
-}
-
-#figma_link {
-	font-size: 36pt;
-	color: #4AFE21;
-}
-
-nav.slide2 {
+#infinite_gif {
+	order: 4;
 	float: right;
-	margin-top: 35vh;
-	margin-right: 2vw;
 }
 
-/*Slide 3*/
-
-body.slide3 {
-	background-color: #2C2A28; 
-	color: #FFFFFF;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
-h1.slide3#title {
-	margin-top: 6vh;
-	margin-bottom: 5vh;
-	text-align: center;
-	font-size: 36pt;
-}
-
-h1.slide3#portillo {
-	float: right;
-	margin-right: 15vw;
-}
-
-#ascii_map {
-	margin-top: -4vh;
-	margin-left: 10vw;
-	margin-right: 1vw;
-}
-
-#mackern_pic {
-	margin-bottom: 32vh;
-}
-
-#portillo_pic {
-	float: right;
-	margin-top: -46vh;
-	margin-right: 10vw;
-}
-
-#ambientacion_web_s3 {
-	float: right;
-	margin-top: 35vh;
-	margin-right: -13vw;
-}
-
-h1.slide3#mackern {
-	margin-left: 25vw;
-}
-
-nav.slide3 {
-	float: right;
-	margin-top: -8vh;
-	margin-right: 2vw;
-}
-
-/*Slide 4*/
-
-body.slide4 {
-  background-color: purple;
-}
-
-h1.slide4#Title {
-  text-align: center;
-  font-size: 40;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.slide4#AuthorPic {
-  margin-left: auto;
-  margin-right: auto;
-  height: 320px;
-  width: 240px;
-}
-
-div.slide4#AuthorBio {
-  background-color: red;
-  height: 300px;
-  width:300px;
-  font-size: 20;
-  text-align: center;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-button.slide4 {
-  height: 100px;
-  width: 100px;
-  font-size: 20;
-}
-
-button.slide4:hover {
-  background-color: red;
-  color: white;
-}
-
-#SlideResultsJoe {
-	margin-top: -6vh;
-}
-
-/*Slide 5*/
-
-h1.slide5#Title2{
-  text-align: center;
-  font-size: 40;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.slide5#Explanation{
-  text-align: center;
-  font-size: 20;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: red;
-}
-
-div.slide5#PicturePattern1{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 420px;
-  width: 420px;
-}
-
-div.slide5#PicturePattern2{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 420px;
-  width: 420px;
-}
-
-div.slide5#PicturePattern3{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 420px;
-  width: 420px;
-}
-
-div.slide5#PicturePattern4{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 420px;
-  width: 420px;
-}
-
-div.slide5#PicturePattern5{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 420px;
-  width: 420px;
-}
-
-div.slide5#PicturePattern6{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 420px;
-  width: 420px;
-}
-
-div.slide5#PicturePattern7{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 420px;
-  width: 420px;
-}
-
-div.slide5#RogerResultsSlide{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -6vh;
-  font-size: 20;
-}
-
-/*Slide 6*/
-
-body.slide6 {
-	background-color: #2C2A28; 
-	color: #FFFFFF;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	text-align: center;
-}
-
-h1.slide6 {
-	margin-top: 5vh;
-	margin-bottom: 6vh;
-}
-
-nav.slide6 {
-	float: right;
-	margin-right: 2vw;
-}
-
-/*Slide 7*/
-
-body.slide7 {
-	background-color: #2C2A28; 
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
-h1.slide7 {
-	margin-top: 10vh;
-	margin-bottom: 15vh;
-	color: #FFFFFF;	
-	text-align: center;
-	font-size: 36pt;
-}
-
-h2.slide7 {
-	margin-left: 5vw;
-	margin-right: 5vw;
-	color: #F05EAE;
-	font-style: italic;
-}
-
-nav.slide7 {
-	float: right;
-	margin-top: 35vh;
-	margin-right: 2vw;
-}
-
-/*Slide 8*/
-
-body.slide8 {
-	background-color: purple;
-}
-
-div.slide8#Title3 {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 40px;
-}
-
-div.slide8#FinalThoughts {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: red;
-  height: 300px;
-  width: 300px;
-  padding: 10px;
-  font-size: 20;
-}
-
-div.slide8#WorksCited {
-  text-align: center;
-  font-size: 10pt;
-  color: white;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-div.slide8#THANKYOU {
-  font-size: 30;
-  color: white;
-  text-align: center;
-  padding: 5px;
-  background-color: blue;
+#text {
+	position: relative;
+	left: 30vw;
+	width: 50vw;
+	display: grid;
+	font-family: 'Quicksand', sans-serif;
+	color: #69003A;
 }
