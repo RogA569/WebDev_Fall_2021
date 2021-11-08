@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+	font-family: "Rubik", sans-serif;
+}
+
+table {
+	position: relative;
+	right: 0.6vw;
+	width: 99vw;
+	height: 45.1vh;
+}
+
+tbody {
+	text-align: center;
+}
+
+caption {
+	caption-side: bottom;
+}
+
+/*Homepage*/
+main.homepage {
+	background-color: #66fa81;
+}
+
+div#logo.homepage {
+	text-align: center;
+}
+
+h1.homepage {
+	text-align: center;
+	color: #b3995d;
+	filter: drop-shadow(-0.12vw -0.12vh #aa0000);
+}
+
+h2.homepage {
+	position: relative;
+	left: 1.6vw;
+	top: 2vh;
+	margin-right: 1.6vw;
+	color: #aa0000;
+	filter: drop-shadow(0.12vw 0.12vh #b3995d);
+}
+
+/*Player Pages*/
+main.player_page {
+	background-color: #ff00ff;
+	/*change background-color (something monochromatic) when mouse hovers over player image*/
+}
+
+div#logo.player_page {
+	text-align: center;
+}
+
+h1.player_page {
+	display: inline-flex; /*Does this count as using flex display?*/
+	position: relative;
+	top: 3vh;
+}
+
+tbody#player_page {
+	text-align: center;
+}
+
+tr.stat_columns {
+	background-color: #E2FFFA;
+	position: sticky;
+	top: .1vh;
+}
+
+/*roger_argueta_samuel.html specific*/
+h1#roger_samuel_name.player_page {
+	color: #0000ff;
+	filter: drop-shadow(0.25vw 0.25vh #ffff00);
+}
+
+img#roger_pic.player_page {
+	display: block;
+	position: relative;
+	top: 4vh;
+	left: 2vw;
+	margin-right: 2vw;
+}
+
+table#roger.player_page {
+	top: 2vh;
+	height: 20vh; /*overrides table line of code above*/
+}
+
+/*jarold_garcia_brady.html specific*/
+h1#jarold_brady_name.player_page {
+	color: #ff0000;
+	filter: drop-shadow(0.25vw 0.25vh #00ffff);
+}
+
+img#jarold_pic.player_page {
+	display: block;
+	position: relative;
+	top: 4vh;
+	left: 2vw;
+	margin-right: 2vw;
+}
+
+table#jarold.player_page {
+	top: 2vh;
+	height: 120vh; /*overrides table line of code above*/
+}
