@@ -45,18 +45,33 @@ h2.homepage {
 
 /*Player Pages*/
 main.player_page {
-	background-color: #ff00ff;
-	/*change background-color (something monochromatic) when mouse hovers over player image*/
+	background-color: #b3995d;
 }
 
 div#logo.player_page {
 	text-align: center;
 }
 
+img#player_pic {
+	display: block;
+	position: relative;
+}
+
 h1.player_page {
-	display: inline-flex; /*Does this count as using flex display?*/
+	display: inline-flex;
 	position: relative;
 	top: 3vh;
+	align-content: center;
+}
+
+h1.player_nav {
+	display: inline-flex;
+	font-weight: 300;
+	float: right;
+}
+
+a.player_nav {
+	color: #00E9FF;
 }
 
 tbody#player_page {
@@ -70,17 +85,23 @@ tr.stat_columns {
 }
 
 /*roger_argueta_samuel.html specific*/
-h1#roger_samuel_name.player_page {
-	color: #0000ff;
-	filter: drop-shadow(0.25vw 0.25vh #ffff00);
-}
-
-img#roger_pic.player_page {
-	display: block;
+div#roger_pic.player_page {
+	width: 270px;
+	height: 200px;
 	position: relative;
 	top: 4vh;
 	left: 2vw;
 	margin-right: 2vw;
+}
+
+div#roger_pic.player_page:hover {
+	/*Source: https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126486.png&w=350&h=254*/
+	content: url(assets/deebo_samuel.png);
+}
+
+h1#roger_samuel_name.player_page {
+	color: #0000ff;
+	filter: drop-shadow(0.25vw 0.25vh #ffff00);
 }
 
 table#roger.player_page {
@@ -89,17 +110,23 @@ table#roger.player_page {
 }
 
 /*jarold_garcia_brady.html specific*/
-h1#jarold_brady_name.player_page {
-	color: #ff0000;
-	filter: drop-shadow(0.25vw 0.25vh #00ffff);
-}
-
-img#jarold_pic.player_page {
-	display: block;
+div#jarold_pic.player_page {
+	width: 270px;
+	height: 200px;
 	position: relative;
 	top: 4vh;
 	left: 2vw;
 	margin-right: 2vw;
+}
+
+div#jarold_pic.player_page:hover {
+	/*Source: https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2330.png&w=350&h=254*/
+	content: url(assets/tom_brady.png);
+}
+
+h1#jarold_brady_name.player_page {
+	color: #ff0000;
+	filter: drop-shadow(0.25vw 0.25vh #00ffff);
 }
 
 table#jarold.player_page {

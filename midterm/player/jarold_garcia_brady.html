@@ -12,8 +12,11 @@
 	<main class="player_page">
 		<div class="player_page" id="logo">
 			<!-- San Francisco 49ers, User:Stepshep, Public domain, via Wikimedia Commons -->
+			<!-- Note: I added the animation elements and the element which links back to the homepage -->
 			<svg xmlns="http://www.w3.org/2000/svg" width="460" height="272">
-				<ellipse cx="230" cy="136" rx="230" ry="136" fill="#ffffff"/>
+				<ellipse cx="230" cy="136" rx="230" ry="136">
+					<animate attributename="fill" values="#ffffff; #66fa81; #ffffff" dur="2s" repeatCount="indefinite"/>
+				</ellipse>
 				<ellipse cx="229.5" cy="137" rx="223" ry="130" fill="#000000"/>
 				<ellipse cx="230.5" cy="138.5" rx="194.5" ry="120" fill="#B3995D"/>
 				<ellipse cx="231" cy="136.5" rx="179" ry="112" fill="#AA0000"/>
@@ -51,26 +54,31 @@
 								<path fill="#FFFFFF" d="M208.387,133.582h-13.266v-11.879c10.281,0,31.25,0.084,46.086,0
 									c14.93,0,16.918,8.629,10.629,14.465c-5.93,5.502-18.352,9.42-33.055,6.744C218.781,142.912,217.57,133.582,208.387,133.582">
 								</path>
+				<a href="../index.html">
+					<ellipse cx="230" cy="136" rx="230" ry="136" fill-opacity="0%">
+				</a>
 			</svg>
-			<!-- Make SVG do a weird animation when the mouse hovers over picture -->
 		</div>
 	</main>
 
-	<!-- Change image to picture of Tom when mouse hovers over it -->
-	<img class="player_page" id="jarold_pic" width="270px" height="200px" src="../assets/arthur-chauvineau-il5shCKsWdo-unsplash.jpg">
+	<h1 class="player_nav" id="jarold_brady">
+		<a class="player_nav" href="roger_argueta_samuel.html"> <-- Previous Player </a>
+	</h1>
+
+	<div class="player_page" id="jarold_pic">
+		<img id="player_pic" width="270px" height="200px" src="../assets/arthur-chauvineau-il5shCKsWdo-unsplash.jpg">
+	</div>
 	<h1 class="player_page" id="jarold_brady_name">Jarold Garcia</h1>
 	<h1 class="player_page">(#12, QB)</h1>
-	<p>Date of Birth: 08/03/1977</p>
-	<p>Height: 6'4"</p>
-	<p>Weight: 225 lbs</p>
-	<p>College: Michigan</p>
+	<p class="player_page">Date of Birth: 08/03/1977</p>
+	<p class="player_page">Height: 6'4"</p>
+	<p class="player_page">Weight: 225 lbs</p>
+	<p class="player_page">College: Michigan</p>
 
-	<!-- Check out ESPN API for live-time updates -->
 	<table class="player_page" id="jarold">
 		<caption>Regular Season Only</caption>
 		<thead>
 			<tr class="stat_columns">
-				<!-- Make the th's sticky (sticky positioning) -->
 				<th scope="col" id="year_column">Year</th>
 				<th scope="col">Games</th>
 				<th scope="col">Pass Comp Pct</th>
@@ -265,7 +273,10 @@
 				<td>3</td>
 			</tr>
 			<tr>
-				<td style="font-weight: bold">2011</td>
+				<td style="font-weight: bold; border: 1px orangered dashed;">
+					<!-- All credit for this video goes to the NFL and Monday Night Football -->
+					<a href="../assets/brady_99yd_td.mp4" style="color: #FFD700">2011</a>
+				</td>
 				<td>16</td>
 				<td>65.6</td>
 				<td>5235</td>
