@@ -14,5 +14,5 @@ img.onload = function() {
 
 document.getElementById("fragmented_comments").onclick = function overlay_on() {
 	document.getElementById("atomic_overlay").style.display = "block";
-	document.getElementById("explosion_sound").autoplay = true;
+	document.getElementById("explosion_sound").play();
 }
