@@ -1,0 +1,31 @@
+body {
+	background-color: #5D2A7D;
+	font-family: Arial;
+}
+
+h1 {
+	margin: 5vh;
+	color: #00C7F5;
+	text-align: center;
+}
+
+p {
+	color: #B7B7B7;
+}
+
+span {
+	display: flex;
+	width: 20vw;
+	height: 75vh;
+	background-color: #FFFFFF;
+	justify-content: center;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+}
+
+#next {
+	float: right;
+}
