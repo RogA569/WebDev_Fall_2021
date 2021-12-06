@@ -21,7 +21,7 @@ let cookie;
 const frameCount = 8;
 let cookieModel_index = 1;
 
-const loader = new GLTFLoader().setPath('../assets/3d/');
+const loader = new GLTFLoader().setPath('./assets/3d/');
 
 function animate() {
 	if (cookieModel_index <= 8) {
