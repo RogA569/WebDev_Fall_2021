@@ -62,8 +62,34 @@ window.addEventListener('scroll', () => {
 
 const updateCookie = index => {
 	cookieModel_index = index;
-	if ((cookieModel_index - 1) != 0) {
-		scene.remove.apply(scene, scene.children);
-		scene.add(light);
+	scene.remove.apply(scene, scene.children);
+	scene.add(light);
+	
+	switch (cookieModel_index) {
+		case 2:
+			document.getElementById("minecraft_1").play();
+			break;
+		case 3:
+			document.getElementById("minecraft_2").play();
+			break;
+		case 4:
+			document.getElementById("minecraft_3").play();
+			break;
+		case 5:
+			document.getElementById("minecraft_4").play();
+			break;
+		case 6:
+			document.getElementById("minecraft_5").play();
+			break;
+		case 7:
+			document.getElementById("minecraft_6").play();
+			break;
+		case 8:
+			document.getElementById("minecraft_7").play();
+			break;
+		case 9:
+			// Image from https://www.pinterest.com/pin/806988826965537431/
+			scene.background = new THREE.TextureLoader().load("assets/cookie_monster_fur.jpg");
+			document.getElementById("cookie_monster").play();
 	}
 }
