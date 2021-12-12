@@ -1,14 +1,62 @@
-html {
-	height: 100vh;
-}
+/*import Open Sans font-family from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body {
-	margin: 0px;
-	height: 500vh;
+	margin: 0px; /*so the three.js canvas fills up the whole screen*/
+	height: 500vh; /*sets the overall height of the webpage*/
+	background-color: #C9B859; /*blend canvas background color with body background color*/
 }
 
 canvas {
+	/*Keeps the canvas on the screen while user scrolls */
 	position: fixed;
-	max-width: 100vw;
-	max-height: 100vh;
+}
+
+div#cookie_link_container {
+	display: none; /*begin without rendering div container and its contained elements*/
+	position: fixed; /*keep div on the screen while user scrolls*/
+	
+	/*expand to window width/height*/
+	width: 100vw;
+	height: 100vh;
+
+	flex-direction: column; /*to make each flex item (div with link) a new line*/
+	align-items: center; /*center horizontally*/
+	justify-content: center; /*center vertically*/
+
+	/* Image from https://www.pinterest.com/pin/806988826965537431/ */
+	background-image: url("assets/cookie_monster_fur.jpg");
+	background-attachment: fixed; /* this line creates parallax scrolling effect*/
+
+	animation: opacity-in 1.5s; /*animate the opacity in 1.5s*/
+}
+
+/*opacity animation for div#cookie_link_container (2 keyframes)*/
+@keyframes opacity-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/*div container for each article link*/
+div.cookie_link {
+	margin: 5vh;
+	padding: 50px;
+	border-radius: 50px;
+	background-color: rgba(43, 136, 255, 0.85);
+}
+
+/*article links*/
+a.cookie_links {
+	font-family: 'Open Sans', sans-serif;
+	color: #FFB52B;
+	text-shadow: #E4FFD8 0 0 10px;
+}
+
+/*when the user hovers over the link*/
+a.cookie_links:hover {
+	color: #CC40FF;
 }

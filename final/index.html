@@ -7,7 +7,10 @@
 		<title>The Cookie Project</title>
 	</head>
 	<body>
+		<!-- computerized voiceover -->
 		<audio id="clear_cookies" src="assets/sounds/david_clear_cookies.wav" autoplay></audio>
+		
+		<!-- individual sounds of a minecraft character consuming something -->
 		<audio class="minecraft_sounds" id="minecraft_1" src="assets/sounds/minecraft_1.wav" preload="auto"></audio>
 		<audio class="minecraft_sounds" id="minecraft_2" src="assets/sounds/minecraft_2.wav" preload="auto"></audio>
 		<audio class="minecraft_sounds" id="minecraft_3" src="assets/sounds/minecraft_3.wav" preload="auto"></audio>
@@ -15,9 +18,23 @@
 		<audio class="minecraft_sounds" id="minecraft_5" src="assets/sounds/minecraft_5.wav" preload="auto"></audio>
 		<audio class="minecraft_sounds" id="minecraft_6" src="assets/sounds/minecraft_6.wav" preload="auto"></audio>
 		<audio class="minecraft_sounds" id="minecraft_7" src="assets/sounds/minecraft_7.wav" preload="auto"></audio>
+		
+		<!-- Cookie Monster audio clip -->
 		<audio id="cookie_monster" src="assets/sounds/cookie_monster.wav" preload="auto"></audio>
+
+		<!-- script that will run three.js; generates canvas with instructions provided by this script -->
 		<script type="module" src="js/script.js" defer></script>
 
-		<!-- Two links to two articles; colored #FFB52B; only appear when user has scrolled all the way at the bottom; add hover pseudo-class -->
+		<!-- main container of article links -->
+		<div id="cookie_link_container">
+			<div class="cookie_link"> <!-- container for individual article link -->
+				<a class="cookie_links" href="https://www.wsj.com/articles/google-delays-cookie-removal-to-late-2023-11624542064">
+				Google Delays Cookie Removal to Late 2023 (Wall Street Journal)</a>
+			</div>
+			<div class="cookie_link"> <!-- container for individual article link -->
+				<a class="cookie_links" href="https://www.theverge.com/2021/6/24/22547339/google-chrome-cookiepocalypse-delayed-2023">
+				Google Chrome third-party cookies block delayed until 2023 (The Verge)</a>
+			</div>
+		</div>
 	</body>
 </html>
