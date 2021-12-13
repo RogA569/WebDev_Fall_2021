@@ -24,8 +24,9 @@ div#cookie_link_container {
 	align-items: center; /*center horizontally*/
 	justify-content: center; /*center vertically*/
 
-	/* Image from https://www.pinterest.com/pin/806988826965537431/ */
-	background-image: url("assets/cookie_monster_fur.jpg");
+	/* Credit: https://tenor.com/view/cookie-monster-sesame-street-cookies-eating-cookies-gif-13530571 */
+	background-image: url("assets/cookie_monster_sesame_street.gif");
+	background-repeat: round; /*scale-to-fit images that are entirely inside the webpage window*/ 
 	background-attachment: fixed; /* this line creates parallax scrolling effect*/
 
 	animation: opacity-in 1.5s; /*animate the opacity in 1.5s*/
@@ -46,7 +47,7 @@ div.cookie_link {
 	margin: 5vh;
 	padding: 50px;
 	border-radius: 50px;
-	background-color: rgba(43, 136, 255, 0.85);
+	background-color: rgba(43, 136, 255, 0.95);
 }
 
 /*article links*/
