@@ -21,7 +21,7 @@ scene.add(light); // add to scene
 const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 1, 1000);
 camera.position.set(0, 0, 8); // offset camera (x: 0, y: 0, z: 8)
 
-let cookie; // variable to store loaded gtlf file loaded
+let cookie; // variable to store loaded gtlf file
 const frameCount = 8; // number of cookie models (or "frames" of cookie being eaten)
 let cookieModel_index = 1; // index of cookie model for iteration purposes
 

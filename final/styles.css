@@ -42,12 +42,24 @@ div#cookie_link_container {
 	}
 }
 
+div.cookie_text {
+	margin: 13vh;
+	padding: 50px;
+	border-radius: 20px;
+	background-color: rgba(43, 136, 255, 0.98);
+
+	/*For text inside div*/
+	font-family: 'Open Sans', sans-serif;
+	color: #662B08;
+	text-align: center;
+}
+
 /*div container for each article link*/
 div.cookie_link {
-	margin: 5vh;
-	padding: 50px;
+	margin: 2vh;
+	padding: 25px;
 	border-radius: 50px;
-	background-color: rgba(43, 136, 255, 0.95);
+	background-color: rgba(43, 136, 255, 0.9);
 }
 
 /*article links*/
